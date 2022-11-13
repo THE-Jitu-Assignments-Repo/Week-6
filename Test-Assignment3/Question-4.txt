@@ -1,0 +1,5 @@
+
+4.	Why Did we move from react-redux to Redux Toolkit
+
+    It is simple to setup store, create reducers and write immutable state logic. Also, 
+        it is effective as one can do more work with less code that’s Less boilerplate code to manage store

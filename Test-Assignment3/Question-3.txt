@@ -1,0 +1,5 @@
+
+3.	Why did we move from Context API to Redux?
+
+    Due to Provider hell cases, this is the nesting of context of every state in a component thus redux fixed 
+        this by using only one provider for that makes the store(states) global.

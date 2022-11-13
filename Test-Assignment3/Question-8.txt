@@ -1,0 +1,7 @@
+8.	General Question
+
+    How would you implement a Login functionality that only logs in users saved in the database? (Explain no code)
+
+        I would perform a check functionality that checks whether the login fields input match to
+             those in the database. For example: if the username/name entered matches the one in the database,
+                 if not show an error (“incorrect username”) same with the Password field input.
