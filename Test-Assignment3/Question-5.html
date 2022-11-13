@@ -3,18 +3,32 @@ Using a Prompt allow user to enter numbers separated by commas the printout the 
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIND SUM</title>
 </head>
-<body>
-    
 
+<body>
+
+    <button class="btn" onclick="findsum()">Find Sum</button>
+    <div class="output"></div>
 
     <script>
-        const findsum
+        let findsum = document.querySelector('.btn')
+        let output = document.querySelector('.output')
+        findsum = () => {
+            let nums = prompt("Enter two numbers")
+            let sum = 0;
+            sum = nums.split(",").reduce((a,b) => a + Number(b),0)
+
+            output.innerText = sum
+
+            console.log(sum)
+        }
     </script>
 </body>
+
 </html>
